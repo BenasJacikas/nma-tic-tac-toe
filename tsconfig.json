@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "alwaysStrict": true,
+        "sourceMap": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "noFallthroughCasesInSwitch": true,
+        "allowJs": false,
+        "incremental": true,
+        "skipLibCheck": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        "baseUrl": "./src",
+        "paths": {
+            "*": [
+                "@types/*",
+                "*"
+            ],
+        },
+    },
+    "paths": {
+        "*": ["@types/*", "*"],
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules/*"
+    ]
+}
